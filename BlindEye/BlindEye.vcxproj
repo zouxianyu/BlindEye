@@ -160,16 +160,16 @@
     <FilesToPackage Include="$(TargetPath)" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\goodeye\BEDaisy\DriverEntry.cpp" />
-    <ClCompile Include="..\..\goodeye\BEDaisy\DriverUtil.cpp" />
-    <ClCompile Include="..\..\goodeye\BEDaisy\Hooks.cpp" />
-    <ClCompile Include="..\..\goodeye\BEDaisy\Memory.cpp" />
+    <ClCompile Include="DriverEntry.cpp" />
+    <ClCompile Include="DriverUtil.cpp" />
+    <ClCompile Include="Hooks.cpp" />
+    <ClCompile Include="Memory.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\..\goodeye\BEDaisy\DriverUtil.h" />
-    <ClInclude Include="..\..\goodeye\BEDaisy\Hooks.h" />
-    <ClInclude Include="..\..\goodeye\BEDaisy\Memory.h" />
-    <ClInclude Include="..\..\goodeye\BEDaisy\Types.h" />
+    <ClInclude Include="DriverUtil.h" />
+    <ClInclude Include="Hooks.h" />
+    <ClInclude Include="Memory.h" />
+    <ClInclude Include="Types.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
