@@ -1,6 +1,6 @@
 # BlindEye: BattlEye kernel module bypass
 
-![logo](doc\logo.png)
+![logo](doc/logo.png)
 
 ## Overview
 
